@@ -10,3 +10,4 @@ class contoh1 estends CI_Controller
     }
 
 }
+?>
