@@ -58,7 +58,7 @@
                             <tr>
                                 <td colspan="3" align="center">
                                     <hr>
-                                    <a href="<?php echo base_url().'Gatanshoes' ?>">Back</a>
+                                    <a href="<?php echo base_url().'gatanshoes' ?>">Back</a>
                                 </td>
                             </tr>
                         </table>

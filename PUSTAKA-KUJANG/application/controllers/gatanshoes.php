@@ -1,13 +1,13 @@
 <?php
 defined('BASEPATH') or exit ('no direct script access allowed');
 
-class Gatanshoes extends CI_Controller
+class gatanshoes extends CI_Controller
 {
     function __construct()
     {
         parent::__construct();
         $this->load->helper('url');
-        $this->load->model('Gatanshoes_model');
+        $this->load->model('gtnshoes_model');
     }
 
     public function index()
@@ -41,7 +41,7 @@ class Gatanshoes extends CI_Controller
                 'nh' => $this->input->post('nh'),
                 'ms' => $this->input->post('ms'),
                 'us' => $this->input->post('us'),
-                'harga' => $this->Sultanshoes_model->proses($this->input->post('ms'))
+                'harga' => $this->gtnshoes_model->proses($this->input->post('ms'))
             ];
 
             $this->load->view('v_outputshoes', $data);

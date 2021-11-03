@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class Sultanshoes_model extends CI_Model
+class gtnshoes_model extends CI_Model
 {
     public $harga;
 
@@ -19,6 +19,6 @@ class Sultanshoes_model extends CI_Model
             $this->harga = 400000;
         }
 
-        return
+        return $this->harga;
     }
 }

@@ -11,7 +11,7 @@
         <img src="image/nike.png">
 
                 <center>
-                    <form action="<?= base_url('Gatanshoes/cetak'); ?>" method="post">
+                    <form action="<?= base_url('gatanshoes/cetak'); ?>" method="post">
                         <table cellpadding="10px">
                              <tr>
                                 <th colspan="3">
@@ -24,7 +24,7 @@
                                 <td>:</td>
                                 <td>
                                     <input type="text" name="np" id="np">
-                                    <?= form_error('np', '<br><span style="color:red;">', '</span>'); ?>                                   
+                                    <?=form_error('np', '<br><span style="color:red;">', '</span>'); ?>                                   
                                 </td>
                             </tr>
                             <tr>
@@ -32,7 +32,7 @@
                                 <td>:</td>
                                 <td>
                                     <input type="text" name="nh" id="nh">
-                                    <?= form_error('nh', '<br><span style="color:red;">', '</span>'); ?>
+                                    <?=form_error('nh', '<br><span style="color:red;">', '</span>'); ?>
                                 </td>
                             </tr>
                             <tr>
