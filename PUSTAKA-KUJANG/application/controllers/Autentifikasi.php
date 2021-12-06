@@ -31,7 +31,7 @@ class Autentifikasi extends CI_Controller
             $this->load->view('autentifikasi/login');
             $this->load->view('templates/aute_footer');
             } else {
-                $this->_login();
+                $this->_Login();
                 }
     }
 
